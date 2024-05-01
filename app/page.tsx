@@ -1,6 +1,5 @@
 "use client";
 
-import { withAuthenticator } from "@aws-amplify/ui-react";
 import "@aws-amplify/ui-react/styles.css";
 
 function App() {
@@ -11,4 +10,4 @@ function App() {
   );
 }
 
-export default withAuthenticator(App);
+export default App;
